@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carlos Méndez | Desarrollador Web</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Navegación -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">CM</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Sección de Inicio -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Hola, soy <span>Carlos Méndez</span></h1>
+      <h2>Desarrollador Web Full Stack</h2>
+      <p>Creo experiencias digitales rápidas, accesibles y visualmente atractivas.</p>
+      <a href="#proyectos" class="btn">Ver mis proyectos</a>
+    </div>
+  </section>
+
+  <!-- Sección Sobre mí -->
+  <section id="sobre-mi" class="about">
+    <h2>Sobre mí</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          Soy un desarrollador web apasionado por construir aplicaciones modernas y funcionales.
+          Tengo experiencia en tecnologías como <strong>HTML, CSS, JavaScript, React, Node.js y bases de datos SQL/NoSQL</strong>.
+          Me encanta aprender nuevas tecnologías y resolver problemas complejos con soluciones simples.
+        </p>
+        <p>
+          Actualmente trabajo como desarrollador freelance y colaboro con startups y pequeñas empresas para llevar sus ideas al siguiente nivel.
+        </p>
+        <a href="#contacto" class="btn">Contáctame</a>
+      </div>
+      <div class="about-image">
+        <img src="https://via.placeholder.com/300x300?text=Foto+Perfil" alt="Carlos Méndez">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Proyectos -->
+  <section id="proyectos" class="projects">
+    <h2>Mis Proyectos</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250?text=E-commerce" alt="E-commerce">
+        <h3>Tienda Online</h3>
+        <p>Plataforma de comercio electrónico con React y Firebase.</p>
+        <a href="#" target="_blank" class="btn">Ver proyecto</a>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250?text=Blog" alt="Blog">
+        <h3>Blog Personal</h3>
+        <p>Blog con sistema de comentarios y autenticación usando Node.js.</p>
+        <a href="#" target="_blank" class="btn">Ver proyecto</a>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250?text=App+Tareas" alt="App de tareas">
+        <h3>Task Manager</h3>
+        <p>Aplicación para gestionar tareas diarias con persistencia local.</p>
+        <a href="#" target="_blank" class="btn">Ver proyecto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="contact">
+    <h2>Contáctame</h2>
+    <p>¿Tienes un proyecto en mente? ¡Escríbeme!</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Carlos Méndez. Todos los derechos reservados.</p>
+    <div class="social-links">
+      <a href="#" target="_blank">GitHub</a>
+      <a href="#" target="_blank">LinkedIn</a>
+      <a href="#" target="_blank">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
